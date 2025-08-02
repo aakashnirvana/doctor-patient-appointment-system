@@ -1,0 +1,210 @@
+         /* msgp.jsp*/
+.table_e
+{
+	 background-color:#ffffff; 
+	 border-radius: 6px;
+   width: 60%;
+  height:60%;
+  margin-left: 25%; 
+}
+
+	.input_e[type=text],.textarea_e
+		{
+
+          width: 50%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+		}
+
+		.button_e[type=submit] {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+ position: relative;
+  top: 70%;
+  left: 250%;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.button_e[type=submit]:hover {opacity: 1}
+
+		.container {
+
+			border-radius: 5px;
+			background-color: #f2f2f2;
+			padding: 20px;
+		}
+		.body_e:before{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index:-1;
+background-image: url("d7.jpg");
+  background-repeat: no-repeat;
+ background-size:100% 110% ;
+}
+.body_e
+{
+  font-family:Copperplate Gothic Light;
+}
+
+ .input_e[type=text],.textarea_e  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 4px;
+}
+
+   
+           /* patientinput.jsp*/
+
+
+ 
+      .input_f[type=text],.textarea_f
+		{
+
+          width: 50%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+
+          
+		}
+
+		.button_f[type=submit] {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+ position: relative;
+  top: 70%;
+  left: 60%;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.button_f[type=submit]:hover {opacity: 1}
+
+
+		.container {
+
+			border-radius: 5px;
+			background-color: #f2f2f2;
+			padding: 20px;
+		}
+		 .body_f:before{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index:-1;
+background-image: url("d7.jpg");
+  background-repeat: no-repeat;
+ background-size:100% 110% ;
+}
+.body_f
+{
+  font-family:Copperplate Gothic Light;
+}
+
+.input_f[type=text],.textarea_f,.select  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 4px;
+}
+		 
+             /* patmail */
+
+
+
+
+  .input_g[type=text],..textarea_g
+		{
+
+          width: 50%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+         resize: vertical;
+          
+		}
+
+		.button_g[type=submit] {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+ position: relative;
+  top: 70%;
+  left: 60%;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+		.button_g[type=submit]:hover {opacity: 1}
+
+		.container {
+
+			border-radius: 5px;
+			background-color: #f2f2f2;
+			padding: 20px;
+		}
+		 .body_g:before{
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  z-index:-1;
+background-image: url("d7.jpg");
+  background-repeat: no-repeat;
+ background-size:100% 110% ;
+}
+.body_g
+{
+  font-family:Copperplate Gothic Light;
+}
+
+.input_g[type=text],.textarea_g,.select1,.select2  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 4px;
+}

@@ -1,0 +1,79 @@
+
+.bg:before{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:120%;
+	z-index:-1;
+background-image: url("d7.jpg");
+  background-repeat: no-repeat;
+ background-size:100% 110% ;
+ opacity: 0.4;
+}
+.bg
+{
+  font-family:Copperplate Gothic Light;
+}
+
+ input[type=text]  {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 4px;
+}
+
+select{
+ width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 4px;
+}
+textarea{
+   box-sizing: border-box;
+  border: 2px solid green;
+  width: 85%;
+border-radius: 4px;
+}
+
+table
+{
+	width: 40%;
+	height:20%;
+	margin:auto;
+  padding-left: 25px;
+  padding-right: 10px;
+	border-style:solid;
+	 background-color:#ffffff; 
+	 border-radius: 6px;
+}
+tr{
+	padding:5px;
+}
+input[type=submit] {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+ position: relative;
+  top: 70%;
+  left: 35%;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+input[type=submit]:hover {opacity: 1}
+
+	
+h1{
+  color:#00004d;
+text-align: center;
+ }

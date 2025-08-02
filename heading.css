@@ -1,0 +1,27 @@
+p.heading{
+		font-family:Copperplate Gothic Light;
+	    color:00004D;
+	    font-size: 30px;
+	    font-weight: bold;
+      text-align: center;
+	}
+
+input[type=button] {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+ position: relative;
+  top: 10%;
+  left: 45%;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+input[type=button]:hover {opacity: 1}

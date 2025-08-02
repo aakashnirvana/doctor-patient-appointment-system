@@ -1,0 +1,138 @@
+
+.bg:before{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:130%;
+	z-index:-1;
+background-image: url("d7.jpg");
+  background-repeat: no-repeat;
+ background-size:100% 110% ;
+ opacity: 0.6;
+}
+.bg
+{
+  font-family:Copperplate Gothic Light;
+}
+
+ input[type=text]  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 4px;
+}
+.password {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 4px;
+}
+input[type=date]  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 4px;
+}
+ input[type=number]  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 4px;
+}
+table
+{
+	width: 35%;
+	height:20%;
+	margin-left: 33%;
+
+  
+	border-style:solid;
+	 background-color:#ffffff; 
+	 border-radius: 6px;
+}
+
+
+.table
+{
+  width: 60%;
+  height:20%;
+  margin-left: 20%;
+
+  
+  border-style:solid;
+   background-color:#ffffff; 
+   border-radius: 6px;
+}
+tr{
+	padding:30px;
+}
+td{
+  padding: 10px;
+}
+input[type=submit] {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+ position: relative;
+  top: 70%;
+ 
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.input1[type=submit] {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+ position: relative;
+  top: 70%;
+  left: 290%;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+input[type=submit]:hover {opacity: 1}
+
+.input2[type=submit] {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+ position: relative;
+  top: 70%;
+  left: 135%;
+ 
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+
+
+
+	

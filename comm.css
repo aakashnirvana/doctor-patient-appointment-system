@@ -1,0 +1,277 @@
+	            /*pdata.jsp*/
+
+ .ss[type=submit] {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+ position: relative;
+  top: 70%;
+  left: 1%;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.ss[type=submit]:hover {opacity: 1}
+.body_k:before{
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  z-index:-1;
+background-image: url("d7.jpg");
+  background-repeat: no-repeat;
+ background-size:100% 110% ;
+}
+.body_k
+{
+  font-family:Copperplate Gothic Light;
+}
+  .pdata_a{
+             width:98%;
+    margin:auto;
+    margin-top:2rem;
+
+}
+
+.td_a,.th_a
+  {
+    height:2rem;
+  }
+  .td_a
+  {
+    padding-left:10px;
+  }
+  .th_a
+  {
+    background-color:red;
+    color:white;
+  }
+  .tr_a:nth-child(even)
+  {
+    background-color:white;
+  }
+  .tr_a:nth-child(odd)
+  {
+    background-color:lightgray;
+  }
+  .tr_a:hover
+  {
+    background-color:green;
+    color:white;
+    transition:0.4s;
+    cursor:pointer;
+  }
+  .tr_a:nth-child(1)
+  {
+    cursor:auto;
+  }
+
+
+             /*msg.jsp*/
+
+ .table_a
+{
+  background-color:#ffffff; 
+   border-radius: 6px;
+   width: 60%;
+  height:60%;
+  margin-left: 25%;
+}
+
+.input_a[type=text],.textarea_a
+    {
+
+          width: 50%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+    }
+
+    .button_ba[type=submit]{
+      background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+ position: relative;
+  top: 70%;
+  left: 290%;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+    }
+
+    .button_ba[type=submit]:hover{
+      opacity: 1
+    }
+
+    .container {
+
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+     .msg:before{
+      content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  z-index:-1;
+background-image: url("d7.jpg");
+  background-repeat: no-repeat;
+ background-size:100% 110% ;
+     }
+
+     .msg{
+  font-family:Copperplate Gothic Light;
+}
+
+.input_a[type=text],.textarea_a{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 4px;
+}
+
+
+
+
+          /*  docinput.jsp*/
+
+      .button_b[type=submit] {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+ position: relative;
+  top: 70%;
+  left: 70%;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+   
+  .button_b[type=submit]:hover {opacity: 1}
+    .container {
+
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+      .body_b:before{
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  z-index:-1;
+background-image: url("d7.jpg");
+  background-repeat: no-repeat;
+ background-size:100% 110% ;
+}
+.body_b
+{
+  font-family:Copperplate Gothic Light;
+}
+.input_b[type=text],.textarea_b,.select_b {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 4px;
+}
+
+                 /* docmail.jsp*/      
+
+         
+
+      .input_c[type=text]
+    {
+
+          width: 50%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+
+          
+    }
+
+    .button_c[type=submit]{
+     background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+ position: relative;
+  top: 70%;
+  left: 70%;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+    }
+
+    .button_c[type=submit]:hover{opacity: 1}
+    
+
+    .container {
+
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    .body_c:before{
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  z-index:-1;
+background-image: url("d7.jpg");
+  background-repeat: no-repeat;
+ background-size:100% 110% ;
+}
+.body_c
+{
+  font-family:Copperplate Gothic Light;
+}
+.input_c[type=text],.textarea_c  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 4px;
+}
+
+             
+
+
+    

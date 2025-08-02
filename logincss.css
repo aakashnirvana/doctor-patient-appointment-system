@@ -1,0 +1,79 @@
+.bg:before{
+  content:" ";
+  position:absolute;
+  width:100%;
+  height:100%;
+   background-image: url("d2.jpg");
+    background-repeat: no-repeat;
+   background-size:100% 140%;
+   z-index:-1;
+   opacity:0.4;
+}
+table
+{
+	width:30%;
+	height:40%;
+	margin: auto;
+  
+	border-style:solid;
+	 background-color:#ffffff; 
+	 border-radius: 6px;
+}
+tr{
+	padding:30px;
+}
+input[type=text]  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 4px;
+}
+input[type=password]  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 4px;
+}
+
+
+input[type=submit] {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+ position: relative;
+  top: 70%;
+  left: 110%;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+input[type=submit]:hover {opacity: 1}
+
+
+p{
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 15%;
+}
+
+h1{
+  color:#00004d;
+  
+}
+
+h1.login{
+  color:#00004d;
+text-align: center;
+ }
+
